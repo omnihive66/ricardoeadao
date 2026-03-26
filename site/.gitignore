@@ -3,9 +3,10 @@
 .pnpm-store/
 
 # Build outputs
-dist/
 build/
 *.dist
+# Manter dist/public no git para deploy no Vercel
+dist/index.js
 
 # Environment variables
 .env
