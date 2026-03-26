@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site-dev",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:\\Users\\Administrador\\Desktop\\Nova pasta\\site\\node_modules\\vite\\bin\\vite.js", "--config", "C:\\Users\\Administrador\\Desktop\\Nova pasta\\site\\vite.config.ts", "--host", "--port", "3000"],
+      "port": 3000
+    }
+  ]
+}
