@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd site && npm install -g pnpm@10.4.1 && pnpm install && pnpm run build",
+  "outputDirectory": "site/dist/public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
