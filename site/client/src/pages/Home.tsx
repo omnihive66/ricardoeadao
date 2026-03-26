@@ -121,12 +121,12 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 border-b border-gray-200">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-3">
+          <a href="#inicio" className="flex items-center gap-3 cursor-pointer">
             <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663105393552/WxD5Cut5XBSrbyWGC56a8a/pasted_file_fSZIGI_image_2e57dc65.png" alt="Logo Ricardo & Adão" className="h-10 w-10" />
             <div className="text-2xl font-bold text-blue-900">
               Ricardo & Adão
             </div>
-          </div>
+          </a>
           <div className="hidden md:flex gap-8">
             <a href="#servicos" className="text-gray-700 hover:text-blue-900 transition">Serviços</a>
             <a href="#imoveis" className="text-gray-700 hover:text-blue-900 transition">Imóveis</a>
@@ -136,7 +136,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-24 pb-20 bg-gradient-to-br from-white via-emerald-50 to-white relative overflow-hidden">
+      <section id="inicio" className="pt-24 pb-20 bg-gradient-to-br from-white via-emerald-50 to-white relative overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Conteúdo Hero */}
