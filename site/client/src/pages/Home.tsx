@@ -155,12 +155,14 @@ export default function Home() {
               <div className="flex gap-4">
                 <Button
                   className="bg-blue-900 hover:bg-blue-950 text-white px-8 py-6 text-lg rounded-lg transition-all hover:shadow-lg"
+                  onClick={() => document.getElementById('imoveis')?.scrollIntoView({ behavior: 'smooth' })}
                 >
                   Ver Imóveis
                 </Button>
                 <Button
                   variant="outline"
                   className="border-blue-900 text-blue-900 hover:bg-blue-50 px-8 py-6 text-lg rounded-lg"
+                  onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
                 >
                   Fale Conosco
                 </Button>
